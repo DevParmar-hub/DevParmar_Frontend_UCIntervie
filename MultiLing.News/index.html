@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News For Everyone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <span id="mainHead">The Current </span>
+        <span id="secHead"> News for Everyone</span>
+        <div class="dropDown">
+            <label id="Choose" for="Language">Choose a Language:</label>
+            <select name="Lang" id="dropMenu">
+                <!-- hi-hindi
+                    fr-french
+                    en-english
+                    es-spanish
+                    de-german -->
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <option value="hi">Hindi</option>
+                <option value="de">German</option>
+            </select>
+        </div>
+        <button id="generate">Generate</button>
+
+    </nav>
+    <div class="container">
+        <div id="post">
+            <div id="heading"></div>
+            <div class="img">
+                <img id="ImG" src="" alt="">
+            </div>
+            <div id="description">
+            </div>
+            <div class="sndpt"> <span id="span1"></span> <span id="span2"></span> </div>
+            <div class="link"><a id="Link" href="">Source</a></div>
+            <button id="next">Next ></button>
+        </div>
+        <!-- <div id="firstSlide">
+            <div class="dropDown">
+                <label id="Choose" for="Language">Choose a Language:</label>
+                <select name="Lang" id="dropMenu">
+                     hi-hindi
+                    fr-french
+                    en-english
+                    es-spanish
+                    de-german 
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <option value="hi">Hindi</option>
+                    <option value="de">German</option>
+                </select>
+            </div>
+            <button id="generate">Generate</button>
+        </div> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
