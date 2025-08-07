@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Intro">
+        <div class="mainHead">
+            Guess the Number
+            <!-- <img src="fl clover.png" alt="" id="fl" >  -->
+
+        </div>
+        <div class="secHead">
+            Many have guessed but only a few have triumphed
+        </div>
+    </div>
+    <div class="instructions">
+        <div class="ruleHead">
+            The instructions are as follows:
+        </div>
+        <div class="listInstruc">
+
+            the computer will choose a number at random ranging from 1 all the way upto a 100 <br>
+            you will get seven lives or opportunities might i say to guess the number <br>
+            with each guess you will be aided by a prompt which shall indicate whether you are higher
+            or lower then the required number
+        </div>
+
+    </div>
+    <div class="lives">
+        <img class="hearts" id="img1" src="heart.png" alt="">
+        <img class="hearts" id="img2" src="heart.png" alt="">
+        <img class="hearts" id="img3" src="heart.png" alt="">
+        <img class="hearts" id="img4" src="heart.png" alt="">
+        <img class="hearts" id="img5" src="heart.png" alt="">
+        <img class="hearts" id="img6" src="heart.png" alt="">
+        <img class="hearts" id="img7" src="heart.png" alt="">
+    </div>
+    <div class="container">
+        <div class="typeSpace">
+            <input id="input" type="text" placeholder="Enter your Number">
+            <div id="hint"></div>
+        </div>
+        <div class="buttonCont">
+
+            <div class="button">
+                <button id="b1">
+                    Guess
+                </button>
+            </div>
+            <button id="b2">
+                Reset
+            </button>
+        </div>
+        <div class="history">
+            <div class="heading">
+                History
+            </div>
+            <div id="record">
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
